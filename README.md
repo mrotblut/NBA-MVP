@@ -118,10 +118,10 @@ After the data is made uniform, a linear regression is applied, this assumes the
 $$ y = Xw+b $$
 
 Where \
-$y = $ the dependant variable (Whether or not a player is MVP) \
-$X = $ the matrix of input features \
-$w = $ the vector of coeffiecents \
-$b = $ the intercept term
+$y =$ the dependant variable (Whether or not a player is MVP) \
+$X =$ the matrix of input features \
+$w =$ the vector of coeffiecents \
+$b =$ the intercept term
 
 This formula can then be used on new data to predict the dependant variable.
 
