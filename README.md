@@ -6,11 +6,11 @@ I did this using Machine learning, the model I created first applies a Standard 
 
 A standard scaler centers the data around 0 then makes the variance of the data 1, allowing the machine to easily understand the data is comparison to other columns. The following transformation is applied:
 
-![Latex Equation](https://quicklatex.com/cache3/d1/ql_69a447d8b73b5dc37376369c24ce83d1_l3.png)
+$$X_{scaled} = \frac{X - \mu }{ \sigma} $$
 
 After the data is made uniform, a linear regression is applied, this assumes there is a relationship between the data and finds the relationship using ordinary least squares linear regression. Sklearn forms the following formula:
 
-![Latex equation](https://quicklatex.com/cache3/bc/ql_64105f502bd08d2a859e4009ea034fbc_l3.png)
+$$ y = Xw+b $$
 
 Where
 y = the dependant variable (Whether or not a player is MVP)
